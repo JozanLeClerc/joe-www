@@ -1,5 +1,5 @@
 body {
-	background-color: #eee;
+	background-color: #f1f1f1;
 	margin: 0pt;
 	padding: 0pt;
 }
@@ -49,4 +49,21 @@ a:active {
 	background-color: transparent;
 	border: 0pt;
 	margin: 0pt;
+}
+
+div.sidebar {
+	float: right;
+	background-color: #dde;
+	border-left: 2pt solid #99D;
+	border-bottom: 2pt solid #99D;
+	margin-left: 2em;
+	margin-bottom: 1em;
+	min-width: 15%;
+	padding: 5pt;
+}
+
+div.body-content {
+	padding: 5pt;
+	margin-left: 10%;
+	margin-right: 10%;
 }
