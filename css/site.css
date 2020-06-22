@@ -1,5 +1,5 @@
 body {
-	background-color: #eee
+	background-color: #eee;
 	margin: 0pt;
 	padding: 0pt;
 }
@@ -8,9 +8,17 @@ header {
 	margin: 0pt;
 	padding: 0pt;
 	width: 100%;
-	background-color: #ccc;
-	border-bottom: 2pt solid #999;
+	background-color: #ddd;
+	border-bottom: 2pt solid #aaa;
 	border-top: 0pt;
+}
+
+header h1 {
+	font-size: x-large;
+	font-weight: bold;
+	text-align: center;
+	padding: 5pt;
+	margin: 0pt;
 }
 
 a {
@@ -19,19 +27,26 @@ a {
 }
 
 a:link {
-	color: #037;
+	color: #05a;
 	background-color: transparent;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #037;
+	color: #05a;
 	background-color: transparent;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #07A;
+	color: #0af;
 	background-color: transparent;
 	text-decoration: none;
+}
+
+a:active {
+	color: #0af;
+	background-color: transparent;
+	border: 0pt;
+	margin: 0pt;
 }
