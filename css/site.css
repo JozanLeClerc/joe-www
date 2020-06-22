@@ -1,6 +1,7 @@
 body {
 	background-colo-r: #f5f5f5;
 	/* background-color: #ffffff; */
+	font-family: sans-serif;
 	margin: 0pt;
 	padding: 0pt;
 }
@@ -74,8 +75,8 @@ div.sidebar ul {
 
 div.body-contents {
 	padding: 5pt;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 div.body-contents h1 {
@@ -93,4 +94,16 @@ div.body-contents h2 {
 	text-align: left;
 	padding: 0em 0em 0em 0em;
 	margin: 0pt;
+}
+
+div.body-contents code {
+	background-color: #f4f4f4;
+}
+
+div.body-contents pre {
+	background-color: #e4e4e4;
+	display: block;
+	margin: 0em 20% 0em 1em;
+	padding: 10px 10px 10px 10px;
+	white-space: pre;
 }
