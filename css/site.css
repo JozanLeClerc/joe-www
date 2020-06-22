@@ -82,14 +82,15 @@ div.body-contents h1 {
 	font-size: 140%;
 	font-weight: bold;
 	text-align: left;
-	padding: 1em 0em 1em 0em;
+	padding: 0em 0em 0em 0em;
 	margin: 0pt;
+	margin-top: 1em;
 }
 
 div.body-contents h2 {
 	font-size: 125%;
 	font-weight: bold;
 	text-align: left;
-	padding: 1em 0em 1em 0em;
+	padding: 0em 0em 0em 0em;
 	margin: 0pt;
 }
