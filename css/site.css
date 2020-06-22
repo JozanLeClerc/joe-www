@@ -27,25 +27,25 @@ a {
 }
 
 a:link {
-	color: #05a;
+	color: #45a;
 	background-color: transparent;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #05a;
+	color: #45a;
 	background-color: transparent;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #0af;
+	color: #48f;
 	background-color: transparent;
 	text-decoration: none;
 }
 
 a:active {
-	color: #0af;
+	color: #48f;
 	background-color: transparent;
 	border: 0pt;
 	margin: 0pt;
@@ -53,13 +53,22 @@ a:active {
 
 div.sidebar {
 	float: right;
-	background-color: #dde;
-	border-left: 2pt solid #99D;
-	border-bottom: 2pt solid #99D;
+	background-color: #e4e4f0;
+	border-left: 1pt solid #99c;
+	border-bottom: 1pt solid #99c;
 	margin-left: 2em;
 	margin-bottom: 1em;
 	min-width: 15%;
 	padding: 5pt;
+}
+
+div.sidebar li {
+	display: list-item;
+	list-style: square;
+}
+div.sidebar ul {
+	padding: 0pt 0pt 0pt 1em;
+	margin: 0 0 1em;
 }
 
 div.body-content {
