@@ -1,14 +1,25 @@
+<?php
+function
+jo_head($title) {
+?>
 <html>
   <head>
-	<title>Joe's own website</title>
+	<title>Joe's own website - <?php echo "$title"; ?></title>
 	<link rel="stylesheet" type="text/css" href="css/site.css">
-	<meta charset="UTF-8">
+	  <meta charset="UTF-8">
   </head>
   <body>
 	<div class="fullpage">
 	  <header>
-		<h1>Joe's dev blog</h1>
+		<h1>Joe's dev blog - <?php echo "$title"; ?></h1>
 	  </header>
+<?php
+}
+
+function
+jo_sidebar() {
+?>
+
 	  <div class="sidebar">
 		<ul>
 		  <li>
@@ -43,22 +54,11 @@
 		  </li>
 		</ul>
 	  </div>
-	  <div class="body-contents">
-		<h1>About this site</h1>
-		<p>
-		  Welcome to my personnal blog. Here you can find my tips and articles
-		  on various tech and programming subjects.
-		  <br><br>
-		  The site is still in active developpement, stay tuned.
-		</p>
-		<h1>About me</h1>
-		<p>
-		  I am a student for
-		  <a href="https://www.42lyon.fr/" target="_blank">42Lyon</a>
-		  IT school based in Lyon, France.
-		  I work on various personnal project beside that.
-		</p>
-	  </div>
+<?php
+}
+function
+jo_footer() {
+?>
 	  <footer>
 		<p>
 		  Copyright Joe 2020 -
@@ -66,6 +66,6 @@
 		  we do not use cookies
 		</p>
 	  </footer>
-	</div>
-  </body>
-</html>
+<?php
+}
+?>
