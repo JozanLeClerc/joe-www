@@ -61,11 +61,14 @@ jo_footer() {
 ?>
 	  <footer>
 		<p>
-		  Copyright Joe 2020 -
+		  Copyright Rudy Bousset 2020 -
 		  see <a href="LICENSE">LICENSE</a> -
 		  we do not use cookies
 		</p>
 	  </footer>
+	</div>
+  </body>
+</html>
 <?php
 }
 ?>
