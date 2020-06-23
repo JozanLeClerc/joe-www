@@ -23,7 +23,7 @@ jo_sidebar() {
 	  <div class="sidebar">
 		<ul>
 		  <li>
-			<a href="index.html">Home</a>
+			<a href="index.php">Home</a>
 		  </li>
 		  <li>
 			<a href="">C</a>
@@ -61,8 +61,8 @@ jo_footer() {
 ?>
 	  <footer>
 		<p>
-		  Copyright Rudy Bousset 2020 -
-		  see <a href="LICENSE">LICENSE</a> -
+		  Copyright &copy; 2020, Rudy Bousset -
+		  see <a href="license.php">LICENSE</a> -
 		  we do not use cookies
 		</p>
 	  </footer>

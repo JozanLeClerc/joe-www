@@ -1,20 +1,21 @@
 <?php include 'inc/classic-contents.inc.php'; ?>
-<?php jo_head("Home"); ?>
+<?php jo_head("LICENSE"); ?>
 <?php jo_sidebar(); ?>
 	  <div class="body-contents">
-		<h1>About this site</h1>
+		<h1>BSD 3-Clause</h1>
 		<p>
-		  Welcome to my personnal blog. Here you can find my tips and articles
-		  on various tech and programming subjects.
-		  <br><br>
-		  The site is still in active developpement, stay tuned.
+		  This site is copyrighted under the BSD 3-Clause License.
+		  You can find the terms of the license bellow:
 		</p>
-		<h1>About me</h1>
+		<pre>
+<?php
+$license = file_get_contents('LICENSE');
+echo "$license";
+?>
+		</pre>
 		<p>
-		  I am a student for
-		  <a href="https://www.42lyon.fr/" target="_blank">42Lyon</a>
-		  IT school based in Lyon, France.
-		  I work on various personnal project beside that.
+		  You also can download the license using
+		  <a href="LICENSE">this link</a>.
 		</p>
 	  </div>
 <?php jo_footer(); ?>
