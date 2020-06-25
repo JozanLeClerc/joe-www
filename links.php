@@ -33,7 +33,7 @@
 			My email - rbousset@42lyon.fr
 		</li>
 	</ul>
-	<h2>My pals' links</h2>
+	<h2>My pals links</h2>
 	<p>
 		Also check out my pals links:
 		<ul style="list-style: none;">
