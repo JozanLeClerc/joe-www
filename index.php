@@ -2,7 +2,7 @@
 <?php jo_head("Home"); ?>
 <?php jo_sidebar(); ?>
 <div class="body-contents">
-	<h1>About this site</h1>
+	<h2>About this site</h2>
 	<p>
 		Welcome to my personnal blog. Here you can find my tips and articles
 		on various tech and programming subjects.

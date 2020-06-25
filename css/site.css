@@ -106,12 +106,12 @@ a:active {
 	text-decoration: none;
 }
 
-li {
+div.sidebar li {
 	display: list-item;
 	list-style: square;
 }
 
-ul {
+div.sidebar ul {
 	padding: 0pt 0pt 0pt 1em;
 	margin: 0;
 }
@@ -125,6 +125,7 @@ div.sidebar {
 	margin-bottom: 1em;
 	min-width: 15%;
 	padding: 5pt;
+	border-radius: 0px 0px 0px 3px;
 }
 
 div.body-contents {
@@ -146,7 +147,7 @@ div.body-contents h1 {
 }
 
 div.body-contents h2 {
-	font-size: 125%;
+	font-size: 130%;
 	font-weight: bold;
 	text-align: left;
 	padding: 0em 0em 0.25rem 0em;
@@ -157,18 +158,23 @@ div.body-contents h2 {
 }
 
 div.body-contents h3 {
-	font-size: 115%;
+	font-size: 120%;
 	font-weight: bold;
 	text-align: left;
 	padding: 0em 0em 0.25rem 0em;
 	margin: 0pt;
 	margin-top: 1em;
 	color: #24c;
-	border-bottom: 1px solid #24c;
 }
 
 div.body-contents b {
+	font-weight: bold;
 	color: #24c;
+}
+
+div.body-contents li {
+	display: list-item;
+	list-style: square;
 }
 
 div.body-contents ul {
