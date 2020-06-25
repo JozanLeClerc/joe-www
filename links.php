@@ -1,5 +1,5 @@
 <?php include 'inc/classic-contents.inc.php'; ?>
-<?php jo_head("Home"); ?>
+<?php jo_head("Links"); ?>
 <?php jo_sidebar(); ?>
 <div class="body-contents">
 	<h2>My links</h2>
