@@ -108,12 +108,12 @@ a:active {
 
 div.sidebar li {
 	display: list-item;
-	list-style: square;
 }
 
 div.sidebar ul {
 	padding: 0pt 0pt 0pt 1em;
 	margin: 0;
+	list-style: square;
 }
 
 div.sidebar {
@@ -174,12 +174,12 @@ div.body-contents b {
 
 div.body-contents li {
 	display: list-item;
-	list-style: square;
 }
 
 div.body-contents ul {
 	padding: 0pt 0pt 0pt 1.5rem;
 	margin: 0;
+	list-style: square;
 }
 
 div.body-contents code {
@@ -199,4 +199,8 @@ div.body-contents pre {
 	margin-right: 1em;
 	padding: 10px 10px 10px 10px;
 	white-space: pre;
+}
+
+span.fas {
+	font-size: 22px;
 }
