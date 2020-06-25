@@ -34,9 +34,39 @@
 		Also check out my pals links:
 		<ul>
 			<li>
-				Salad's lab:
+				<b>Salad</b>'s lab:
 				<a href="http://saladslab.karabo.ga/" target="_blank">
 					saladslab.karabo.ga
+				</a>
+			</li>
+			<li>
+				His GitHub page:
+				<a href="https://github.com/salaaad2" target="_blank">
+					github.com/salaaad2
+				</a>
+			</li>
+			<li>
+				And his fun Twitter account:
+				<a href="https://twitter.com/fellowNwords" target="_blank">
+					twitter.com/fellowNwords
+				</a>
+			</li>
+			<li>
+				<b>Akira</b>'s WebGL experiments:
+				<a href="https://inner-fab.com/" target="_blank">
+					inner-fab.com
+				</a>
+			</li>
+			<li>
+				His GitLab page:
+				<a href="https://gitlab.com/AkiraMass" target="_blank">
+					gitlab.com/AkiraMass
+				</a>
+			</li>
+			<li>
+				And his daughter's art site:
+				<a href="https://dveloppez.com/" target="_blank">
+					dveloppez.com
 				</a>
 			</li>
 		</ul>

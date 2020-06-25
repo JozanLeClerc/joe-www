@@ -113,7 +113,7 @@ li {
 
 ul {
 	padding: 0pt 0pt 0pt 1em;
-	margin: 0 0 1em;
+	margin: 0;
 }
 
 div.sidebar {
@@ -154,6 +154,26 @@ div.body-contents h2 {
 	margin-top: 1em;
 	color: #24c;
 	border-bottom: 1px solid #24c;
+}
+
+div.body-contents h3 {
+	font-size: 115%;
+	font-weight: bold;
+	text-align: left;
+	padding: 0em 0em 0.25rem 0em;
+	margin: 0pt;
+	margin-top: 1em;
+	color: #24c;
+	border-bottom: 1px solid #24c;
+}
+
+div.body-contents b {
+	color: #24c;
+}
+
+div.body-contents ul {
+	padding: 0pt 0pt 0pt 1.5rem;
+	margin: 0;
 }
 
 div.body-contents code {
