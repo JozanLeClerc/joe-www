@@ -8,13 +8,38 @@
 	</p>
 	<ul>
 		<li>
-			<a href="https://github.com/JozanLeClerc/" target="_blank">
-				My GitHub page
+			My GitHub page -
+			<a href="https://github.com/JozanLeClerc" target="_blank">
+				github.com/JozanLeClerc
 			</a>
 		</li>
-		<li>My Twitch channel</li>
-		<li>My Rock N' Roll band's Bandcamp</li>
-		<li>My Rock N' Roll band's Bandcamp</li>
+		<li>
+			My Twitch channel (streaming code exclusively) -
+			<a href="https://www.twitch.tv/jozanleclerc" target="_blank">
+				twitch.tv/jozanleclerc
+			</a>
+		</li>
+		<li>
+			My Rock N' Roll band's Bandcamp -
+			<a href="https://towerofsilence.bandcamp.com/" target="_blank">
+				towerofsilence.bandcamp.com
+			</a>
+		</li>
+		<li>
+			My email - rbousset@42lyon.fr
+		</li>
 	</ul>
+	<h2>My pals' links</h2>
+	<p>
+		Also check out my pals links:
+		<ul>
+			<li>
+				Salad's lab:
+				<a href="http://saladslab.karabo.ga/" target="_blank">
+					saladslab.karabo.ga
+				</a>
+			</li>
+		</ul>
+	</p>
 </div>
 <?php jo_footer(); ?>
