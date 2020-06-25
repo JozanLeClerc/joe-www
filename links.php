@@ -4,7 +4,7 @@
 <div class="body-contents">
 	<h2>My links</h2>
 	<p>
-		Here Are the links you can use to follow me around:
+		Here are the links you can use to follow me around:
 	</p>
 	<ul style="list-style: none;">
 		<li>
