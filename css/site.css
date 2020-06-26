@@ -202,5 +202,13 @@ div.body-contents pre {
 }
 
 span.fas {
-	font-size: 22px;
+	font-size: 25px;
+}
+
+span.fa-globe-europe {
+	font-size: 16px;
+}
+
+span.fa-envelope {
+	font-size: 16px;
 }

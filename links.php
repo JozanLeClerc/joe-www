@@ -38,7 +38,7 @@
 		Also check out my pals links:
 		<ul style="list-style: none;">
 			<li>
-				<span class="fas fa-globe"></span> -
+				<span class="fas fa-globe-europe"></span> -
 				<b>Salad</b>'s lab:
 				<a href="http://saladslab.karabo.ga/" target="_blank">
 					saladslab.karabo.ga
@@ -59,7 +59,7 @@
 				</a>
 			</li>
 			<li>
-				<span class="fas fa-globe"></span> -
+				<span class="fas fa-globe-europe"></span> -
 				<b>Akira</b>'s WebGL experiments:
 				<a href="https://inner-fab.com/" target="_blank">
 					inner-fab.com
@@ -73,7 +73,7 @@
 				</a>
 			</li>
 			<li>
-				<span class="fas fa-globe"></span> -
+				<span class="fas fa-globe-europe"></span> -
 				And his daughter's art site:
 				<a href="https://dveloppez.com/" target="_blank">
 					dveloppez.com
