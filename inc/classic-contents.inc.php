@@ -6,8 +6,7 @@ jo_head($title) {
 		<head>
 			<title>Joe's own website - <?php echo "$title"; ?></title>
 			<link rel="stylesheet" type="text/css" href="css/site.css">
-			<meta charset="UTF-8">
-			<script src="https://kit.fontawesome.com/1d97d0fb1c.js" crossorigin="anonymous"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">		<meta charset="UTF-8">
 		</head>
 		<body>
 			<div class="fullpage">

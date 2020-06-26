@@ -201,14 +201,6 @@ div.body-contents pre {
 	white-space: pre;
 }
 
-span.fas {
-	font-size: 25px;
-}
-
-span.fa-globe-europe {
-	font-size: 16px;
-}
-
-span.fa-envelope {
+span.fa {
 	font-size: 16px;
 }
