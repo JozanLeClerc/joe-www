@@ -2,18 +2,18 @@
 function
 jo_head($title) {
 ?>
-<html>
-	<head>
-		<title>Joe's own website - <?php echo "$title"; ?></title>
-		<link rel="stylesheet" type="text/css" href="css/site.css">
-		<meta charset="UTF-8">
-		<script src="https://kit.fontawesome.com/1d97d0fb1c.js" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<div class="fullpage">
-			<header>
-				<h1><a href="index.php">Joe's dev blog - <?php echo "$title"; ?></a></h1>
-			</header>
+	<html>
+		<head>
+			<title>Joe's own website - <?php echo "$title"; ?></title>
+			<link rel="stylesheet" type="text/css" href="css/site.css">
+			<meta charset="UTF-8">
+			<script src="https://kit.fontawesome.com/1d97d0fb1c.js" crossorigin="anonymous"></script>
+		</head>
+		<body>
+			<div class="fullpage">
+				<header>
+					<h1><a href="index.php">Joe's dev blog - <?php echo "$title"; ?></a></h1>
+				</header>
 <?php
 }
 
@@ -41,16 +41,16 @@ jo_sidebar() {
 function
 jo_footer() {
 ?>
-			<footer>
-				<p>
-					Copyright &copy; 2020, Joe -
-					see <a href="license.php">LICENSE</a> -
-					we do not use cookies
-				</p>
-			</footer>
-		</div>
-	</body>
-</html>
+	<footer>
+		<p>
+			Copyright &copy; 2020, Joe -
+			see <a href="license.php">LICENSE</a> -
+			we do not use cookies
+		</p>
+	</footer>
+			</div>
+		</body>
+	</html>
 <?php
 }
 ?>
