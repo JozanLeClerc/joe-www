@@ -1,0 +1,26 @@
+#+TITLE: lowbat - lightweight low battery notifier
+
+* Why lowbat?
+   I've been using minimalist OS installations for work, personnal computing and playing video games for a while now.
+I used [[https://www.archlinux.org/][Arch Linux]], I still use [[https://gentoo.org/][Gentoo Linux]] - which is by far my favorite Linux distribution - as a desktop OS, and now I am using
+[[https://www.freebsd.org/][FreeBSD]] on my workstation.
+
+Those operating systems and distributions basically come with a kernel, coreutils, a shell and that's pretty much it.
+Everything else has to be installed manually. I love this philosophy, the simplicity behind it and the fact that
+you know exactly what's on your system at any moment.
+
+As window managers, I used [[http://dwm.suckless.org/][dwm]] for a while, and I am now using [[https://github.com/baskerville/bspwm][bspwm]]. They are ultra-fast, very lightweight and do not bring
+extra bloatware to my systems. I do not use a status bar as well, I like my applications to use the full screen space available.
+
+A big problem for me with this setup for me was that they do not come with some kind of warning or notification system,
+like fancier desktop environments would, when my laptop battery is low. That also was before I started using *Emacs*, discovering
+the battery level indicator in the modeline. Ultimatly the frustration was too important when the computer kept shutting down in
+the middle of important work too many time. Then I decided to create lowbat to cure this issue.
+
+It started as a very short [[https://github.com/tklauser/dash][dash]] ~shell~ script that was working fine but I wanted to experiment a little bit with this. It turned into
+a ~C++~ program, which is still the case for the GNU/Linux version. Switching to FreeBSD, I exerimented again by turning it into
+an ~x64 assembly~ program, following the *Intel* syntax. These days, I am rewriting it with the *AT&T* syntax.
+
+* Links to lowbat
+   - GNU/Linux: [[https://github.com/JozanLeClerc/lowbat][lowbat's GitHub GNU/Linux repository]]
+   - BSD: [[https://github.com/JozanLeClerc/lowbat-bsd][lowbat's GitHub BSD repository]]

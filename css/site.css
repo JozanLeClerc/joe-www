@@ -95,25 +95,25 @@ a {
 }
 
 a:link {
-	color: #45a;
+	color: #23b;
 	background-color: transparent;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #45a;
+	color: #23b;
 	background-color: transparent;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #45a;
+	color: #23b;
 	background-color: transparent;
 	text-decoration: underline;
 }
 
 a:active {
-	color: #45a;
+	color: #23b;
 	background-color: transparent;
 	text-decoration: none;
 }
@@ -196,6 +196,8 @@ div.body-contents ul {
 
 div.body-contents code {
 	background-color: #e4e4e4;
+	color: #24d;
+	font-size: large;
 	border-radius: 5px;
 	padding: 2px 5px 2px 5px;
 }
