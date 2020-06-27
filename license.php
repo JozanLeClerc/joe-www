@@ -8,14 +8,13 @@
 		You can find the terms of the license bellow:
 	</p>
 	<pre>
-		<?php
-		$license = file_get_contents('LICENSE');
-		echo "$license";
-		?>
+<?php
+$license = file_get_contents('LICENSE');
+echo "$license";
+?>
 	</pre>
 	<p>
-		You also can download the license using
-		<a href="LICENSE">this link</a>.
+		You can also <a href="LICENSE">download</a> the license file.
 	</p>
 </div>
 <?php jo_footer(); ?>
