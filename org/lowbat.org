@@ -17,9 +17,9 @@ like fancier desktop environments would, when my laptop battery is low. That als
 the battery level indicator in the modeline. Ultimatly the frustration was too important when the computer kept shutting down in
 the middle of important work too many time. Then I decided to create lowbat to cure this issue.
 
-It started as a very short [[https://github.com/tklauser/dash][dash]] ~shell~ script that was working fine but I wanted to experiment a little bit with this. It turned into
-a ~C++~ program, which is still the case for the GNU/Linux version. Switching to FreeBSD, I exerimented again by turning it into
-an ~x64 assembly~ program, following the *Intel* syntax. These days, I am rewriting it with the *AT&T* syntax.
+It started as a very short ~dash~ shell (get [[https://github.com/tklauser/dash][dash]] here) script that was working fine but I wanted to experiment a little bit with this.
+It turned into a ~C++~ program, which is still the case for the GNU/Linux version. Switching to FreeBSD, I exerimented again by
+turning it into an ~x64 assembly~ program, following the *Intel* syntax. These days, I am rewriting it with the *AT&T* syntax.
 
 * Links to lowbat
    - GNU/Linux: [[https://github.com/JozanLeClerc/lowbat][lowbat's GitHub GNU/Linux repository]]

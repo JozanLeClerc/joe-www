@@ -238,60 +238,60 @@ for the JavaScript code in this tag.
 /*]]>*///-->
 </script>
 <div class="body-contents">
-<h1 class="title">lowbat - lightweight low battery notifier</h1>
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#org49a1737">1. Why lowbat?</a></li>
-<li><a href="#orgafd577f">2. Links to lowbat</a></li>
-</ul>
-</div>
-</div>
+	<h1 class="title">lowbat - lightweight low battery notifier</h1>
+	<div id="table-of-contents">
+		<h2>Table of Contents</h2>
+		<div id="text-table-of-contents">
+			<ul>
+				<li><a href="#org7a3b67e">1. Why lowbat?</a></li>
+				<li><a href="#org3964b8e">2. Links to lowbat</a></li>
+			</ul>
+		</div>
+	</div>
 
-<div id="outline-container-org49a1737" class="outline-2">
-<h2 id="org49a1737"><span class="section-number-2">1</span> Why lowbat?</h2>
-<div class="outline-text-2" id="text-1">
-<p>
-   I've been using minimalist OS installations for work, personnal computing and playing video games for a while now.
-I used <a href="https://www.archlinux.org/">Arch Linux</a>, I still use <a href="https://gentoo.org/">Gentoo Linux</a> - which is by far my favorite Linux distribution - as a desktop OS, and now I am using
-<a href="https://www.freebsd.org/">FreeBSD</a> on my workstation.
-</p>
+	<div id="outline-container-org7a3b67e" class="outline-2">
+		<h2 id="org7a3b67e"><span class="section-number-2">1</span> Why lowbat?</h2>
+		<div class="outline-text-2" id="text-1">
+			<p>
+				I've been using minimalist OS installations for work, personnal computing and playing video games for a while now.
+				I used <a href="https://www.archlinux.org/">Arch Linux</a>, I still use <a href="https://gentoo.org/">Gentoo Linux</a> - which is by far my favorite Linux distribution - as a desktop OS, and now I am using
+				<a href="https://www.freebsd.org/">FreeBSD</a> on my workstation.
+			</p>
 
-<p>
-Those operating systems and distributions basically come with a kernel, coreutils, a shell and that's pretty much it.
-Everything else has to be installed manually. I love this philosophy, the simplicity behind it and the fact that
-you know exactly what's on your system at any moment.
-</p>
+			<p>
+				Those operating systems and distributions basically come with a kernel, coreutils, a shell and that's pretty much it.
+				Everything else has to be installed manually. I love this philosophy, the simplicity behind it and the fact that
+				you know exactly what's on your system at any moment.
+			</p>
 
-<p>
-As window managers, I used <a href="http://dwm.suckless.org/">dwm</a> for a while, and I am now using <a href="https://github.com/baskerville/bspwm">bspwm</a>. They are ultra-fast, very lightweight and do not bring
-extra bloatware to my systems. I do not use a status bar as well, I like my applications to use the full screen space available.
-</p>
+			<p>
+				As window managers, I used <a href="http://dwm.suckless.org/">dwm</a> for a while, and I am now using <a href="https://github.com/baskerville/bspwm">bspwm</a>. They are ultra-fast, very lightweight and do not bring
+				extra bloatware to my systems. I do not use a status bar as well, I like my applications to use the full screen space available.
+			</p>
 
-<p>
-A big problem for me with this setup for me was that they do not come with some kind of warning or notification system,
-like fancier desktop environments would, when my laptop battery is low. That also was before I started using <b>Emacs</b>, discovering
-the battery level indicator in the modeline. Ultimatly the frustration was too important when the computer kept shutting down in
-the middle of important work too many time. Then I decided to create lowbat to cure this issue.
-</p>
+			<p>
+				A big problem for me with this setup for me was that they do not come with some kind of warning or notification system,
+				like fancier desktop environments would, when my laptop battery is low. That also was before I started using <b>Emacs</b>, discovering
+				the battery level indicator in the modeline. Ultimatly the frustration was too important when the computer kept shutting down in
+				the middle of important work too many time. Then I decided to create lowbat to cure this issue.
+			</p>
 
-<p>
-It started as a very short <a href="https://github.com/tklauser/dash">dash</a> <code>shell</code> script that was working fine but I wanted to experiment a little bit with this. It turned into
-a <code>C++</code> program, which is still the case for the GNU/Linux version. Switching to FreeBSD, I exerimented again by turning it into
-an <code>x64 assembly</code> program, following the <b>Intel</b> syntax. These days, I am rewriting it with the <b>AT&amp;T</b> syntax.
-</p>
-</div>
-</div>
+			<p>
+				It started as a very short <code>dash</code> shell (get <a href="https://github.com/tklauser/dash">dash</a> here) script that was working fine but I wanted to experiment a little bit with this.
+				It turned into a <code>C++</code> program, which is still the case for the GNU/Linux version. Switching to FreeBSD, I exerimented again by
+				turning it into an <code>x64 assembly</code> program, following the <b>Intel</b> syntax. These days, I am rewriting it with the <b>AT&amp;T</b> syntax.
+			</p>
+		</div>
+	</div>
 
-<div id="outline-container-orgafd577f" class="outline-2">
-<h2 id="orgafd577f"><span class="section-number-2">2</span> Links to lowbat</h2>
-<div class="outline-text-2" id="text-2">
-<ul class="org-ul">
-<li>GNU/Linux: <a href="https://github.com/JozanLeClerc/lowbat">lowbat's GitHub GNU/Linux repository</a></li>
-<li>BSD: <a href="https://github.com/JozanLeClerc/lowbat-bsd">lowbat's GitHub BSD repository</a></li>
-</ul>
-</div>
-</div>
+	<div id="outline-container-org3964b8e" class="outline-2">
+		<h2 id="org3964b8e"><span class="section-number-2">2</span> Links to lowbat</h2>
+		<div class="outline-text-2" id="text-2">
+			<ul class="org-ul">
+				<li>GNU/Linux: <a href="https://github.com/JozanLeClerc/lowbat">lowbat's GitHub GNU/Linux repository</a></li>
+				<li>BSD: <a href="https://github.com/JozanLeClerc/lowbat-bsd">lowbat's GitHub BSD repository</a></li>
+			</ul>
+		</div>
+	</div>
 </div>
 <?php jo_footer(); ?>
