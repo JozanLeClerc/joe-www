@@ -21,6 +21,5 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 <?php jo_head("lowbat"); ?>
 <?php jo_sidebar(); ?>
 <div class="body-contents">
-	<h1>lowbat - lightweight low battery notifier</h1>
 </div>
 <?php jo_footer(); ?>

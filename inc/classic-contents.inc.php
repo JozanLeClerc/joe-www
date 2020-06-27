@@ -56,7 +56,7 @@ jo_sidebar() {
 	<div class="sidebar">
 		<ul>
 			<li><a href="<?php echo $prefix; ?>index.php">Home</a></li>
-			<li><a href="<?php echo $prefix; ?>"c.php">C</a></li>
+			<li><a href="<?php echo $prefix; ?>c/">C</a></li>
 			<li><a href="<?php echo $prefix; ?>">C++</a></li>
 			<li><a href="<?php echo $prefix; ?>">Lisp</a></li>
 			<li><a href="<?php echo $prefix; ?>">Assembly</a></li>
