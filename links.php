@@ -1,5 +1,5 @@
 <?php include 'inc/classic-contents.inc.php'; ?>
-<?php jo_head("Links"); ?>
+<?php jo_bloat_head("Links"); ?>
 <?php jo_sidebar(); ?>
 <div class="body-contents">
 	<h2>My links</h2>
@@ -23,7 +23,7 @@
 		</li>
 		<li>
 			<span class="fa fa-bandcamp"></span> -
-			My Rock N' Roll band's Bandcamp -
+			My Rockabilly band's Bandcamp -
 			<a href="https://towerofsilence.bandcamp.com/" target="_blank">
 				towerofsilence.bandcamp.com
 			</a>

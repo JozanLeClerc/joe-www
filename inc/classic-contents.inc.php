@@ -6,7 +6,25 @@ jo_head($title) {
 		<head>
 			<title>Joe's own website - <?php echo "$title"; ?></title>
 			<link rel="stylesheet" type="text/css" href="css/site.css">
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">		<meta charset="UTF-8">
+			<meta charset="UTF-8">
+		</head>
+		<body>
+			<div class="fullpage">
+				<header>
+					<h1><a href="index.php">Joe's dev blog - <?php echo "$title"; ?></a></h1>
+				</header>
+<?php
+}
+
+function
+jo_bloat_head($title) {
+?>
+	<html>
+		<head>
+			<title>Joe's own website - <?php echo "$title"; ?></title>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link rel="stylesheet" type="text/css" href="css/site.css">
+			<meta charset="UTF-8">
 		</head>
 		<body>
 			<div class="fullpage">
@@ -29,7 +47,8 @@ jo_sidebar() {
 			<li><a href="">Assembly</a></li>
 			<li><a href="">UNIX</a></li>
 			<li><a href="">GNU Emacs</a></li>
-			<li><a href="">My projects</a></li>
+			<li><a href="">My school projects</a></li>
+			<li><a href="projects.php">My projects</a></li>
 			<li><a href="">My C/C++ style</a></li>
 			<li><a href="links.php">Links</a></li>
 		</ul>
