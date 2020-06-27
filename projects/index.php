@@ -1,9 +1,9 @@
 <!-- ----------------------------------------------------------------------- -->
 <!--                                                                         -->
-<!-- File     : license.php                                      /_________/ -->
+<!-- File     : index.php                                        /_________/ -->
 <!-- Authors  : Joe                                                    |     -->
 <!-- Date     : 06/2020                                                |     -->
-<!-- Info     : The LICENSE display page                               |     -->
+<!-- Info     : The personnal projects welcome page                    |     -->
 <!--                                                           /       |     -->
 <!--                                                           \       /     -->
 <!--                                                            \_____/      -->
@@ -18,22 +18,26 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 }
 ?>
 <?php include $prefix."inc/classic-contents.inc.php"; ?>
-<?php jo_head("LICENSE"); ?>
+<?php jo_head("Projects"); ?>
 <?php jo_sidebar(); ?>
 <div class="body-contents">
-	<h1>BSD 3-Clause</h1>
+	<h1>My personnal projects</h1>
 	<p>
-		This site is copyrighted under the BSD 3-Clause License.
-		You can find the terms of the license bellow:
+		These are the personnal projects I have worked on or that are still being developped:
 	</p>
-	<pre>
-<?php
-$license = file_get_contents('LICENSE');
-echo "$license";
-?>
-	</pre>
-	<p>
-		You can also <a href="LICENSE">download</a> the license file.
-	</p>
+	<ul>
+		<li>
+			<a href="<?php echo $prefix; ?>projects/lowbat.php">lowbat</a> -
+			a lightweight low battery notifier for Linux and BSD
+		</li>
+		<li>
+			<a href="">Dergods' Realm II</a> -
+			a raycasting RPG game
+		</li>
+		<li>
+			<a href="">arch-installer</a> -
+			very basic intallation script for Arch Linux
+		</li>
+	</ul>
 </div>
 <?php jo_footer(); ?>

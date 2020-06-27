@@ -1,4 +1,23 @@
-<?php include 'inc/classic-contents.inc.php'; ?>
+<!-- ----------------------------------------------------------------------- -->
+<!--                                                                         -->
+<!-- File     : links.php                                        /_________/ -->
+<!-- Authors  : Joe                                                    |     -->
+<!-- Date     : 06/2020                                                |     -->
+<!-- Info     : The links page                                         |     -->
+<!--                                                           /       |     -->
+<!--                                                           \       /     -->
+<!--                                                            \_____/      -->
+<!--                                                                         -->
+<!-- ----------------------------------------------------------------------- -->
+
+<?php
+$prefix = "./";
+$curr_dir = basename(getcwd());
+if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
+	$prefix = "../";
+}
+?>
+<?php include $prefix."inc/classic-contents.inc.php"; ?>
 <?php jo_bloat_head("Links"); ?>
 <?php jo_sidebar(); ?>
 <div class="body-contents">
