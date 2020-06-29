@@ -11,6 +11,8 @@
 <!-- ----------------------------------------------------------------------- -->
 
 <?php
+include "org.inc.php";
+
 function
 jo_head($title) {
 	global $prefix;
@@ -20,6 +22,7 @@ jo_head($title) {
 			<title>Joe's own website - <?php echo "$title"; ?></title>
 			<link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>css/site.css">
 			<meta charset="UTF-8">
+			<?php jo_org_inc(); ?>
 		</head>
 		<body>
 			<div class="fullpage">
@@ -39,6 +42,7 @@ jo_bloat_head($title) {
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			<link rel="stylesheet" type="text/css" href="<?php echo $prefix; ?>css/site.css">
 			<meta charset="UTF-8">
+			<?php jo_org_inc(); ?>
 		</head>
 		<body>
 			<div class="fullpage">

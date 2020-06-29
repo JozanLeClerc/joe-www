@@ -237,8 +237,7 @@ div.body-contents pre.src {
 div#postamble {
 	border: 1px solid #89f;
 	width: 35%;
-	margin-top: 25px;
-	margin-left: 25px;
+	margin: 15px;
 	padding: 4px;
 	border-radius: 4px;
 }
