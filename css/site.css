@@ -195,15 +195,18 @@ div.body-contents ul {
 }
 
 div.body-contents code {
+	font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+	font-size: smaller;
 	background-color: #e4e4e4;
 	color: #24d;
-	font-size: large;
 	border-radius: 5px;
 	padding: 2px 5px 2px 5px;
 }
 
 div.body-contents pre {
-	background-color: #e4e4e4;
+	font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+	font-size: smaller;
+	background-color: #d1e2f4;
 	border-radius: 4px;
 	display: block;
 	margin: 0;
@@ -229,6 +232,15 @@ div.body-contents pre.src {
 	padding: 10px 10px 10px 10px;
 	white-space: pre;
 	border: 1px solid #1d2021;
+}
+
+div#postamble {
+	border: 1px solid #89f;
+	width: 35%;
+	margin-top: 25px;
+	margin-left: 25px;
+	padding: 4px;
+	border-radius: 4px;
 }
 
 span.fa {
