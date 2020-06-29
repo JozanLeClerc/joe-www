@@ -45,9 +45,9 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 		<div class="outline-text-2" id="text-1">
 			<p>
 				I've been using minimalist OS installations for work, personnal computing
-				and playing video games for a while now. I used <a href="https://www.archlinux.org/">Arch Linux</a>, I still use
-				<a href="https://gentoo.org/">Gentoo Linux</a> - which is by far my favorite Linux distribution - as a desktop
-				OS, and now I am using <a href="https://www.freebsd.org/">FreeBSD</a> on my workstation.
+				and playing video games for a while now. I used <a href="https://www.archlinux.org/" target="_blank">Arch Linux</a>, I still use
+				<a href="https://gentoo.org/" target="_blank">Gentoo Linux</a> - which is by far my favorite Linux distribution - as a desktop
+				OS, and now I am using <a href="https://www.freebsd.org/" target="_blank">FreeBSD</a> on my workstation.
 			</p>
 
 			<p>
@@ -58,7 +58,7 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 			</p>
 
 			<p>
-				As window managers, I used <a href="http://dwm.suckless.org/">dwm</a> for a while, and I am now using <a href="https://github.com/baskerville/bspwm">bspwm</a>. They
+				As window managers, I used <a href="http://dwm.suckless.org/" target="_blank">dwm</a> for a while, and I am now using <a href="https://github.com/baskerville/bspwm" target="_blank">bspwm</a>. They
 				are ultra-fast, very lightweight and do not bring extra bloatware to my systems.
 				I do not use a status bar as well, I like my applications to use the full screen
 				space available.
@@ -80,7 +80,7 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 		<h2 id="orgf2afc19"><span class="section-number-2">2</span> History of lowbat</h2>
 		<div class="outline-text-2" id="text-2">
 			<p>
-				It started as a very short <code>dash</code> shell (get <a href="https://github.com/tklauser/dash">dash</a> here) script that was
+				It started as a very short <code>dash</code> shell (get <a href="https://github.com/tklauser/dash" target="_blank">dash</a> here) script that was
 				working fine but I wanted to experiment a little bit with this. It turned into
 				a <code>C++</code> program, which is still the case for the GNU/Linux version.
 				Switching to FreeBSD, I exerimented again by turning it into an
@@ -144,8 +144,8 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 		<h2 id="org4bfb234"><span class="section-number-2">4</span> Links to lowbat</h2>
 		<div class="outline-text-2" id="text-4">
 			<ul class="org-ul">
-				<li>GNU/Linux: <a href="https://github.com/JozanLeClerc/lowbat">lowbat's GitHub GNU/Linux repository</a></li>
-				<li>BSD: <a href="https://github.com/JozanLeClerc/lowbat-bsd">lowbat's GitHub BSD repository</a></li>
+				<li>GNU/Linux: <a href="https://github.com/JozanLeClerc/lowbat" target="_blank">lowbat's GitHub GNU/Linux repository</a></li>
+				<li>BSD: <a href="https://github.com/JozanLeClerc/lowbat-bsd" target="_blank">lowbat's GitHub BSD repository</a></li>
 			</ul>
 		</div>
 	</div>
