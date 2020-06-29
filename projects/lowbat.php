@@ -149,10 +149,5 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 			</ul>
 		</div>
 	</div>
-<div id="postamble" class="status">
-	<p class="author">Author: Jozan</p>
-	<p class="date">Created: 2020-06-29 Mon 17:27</p>
-	<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
-</div>
-	<?php jo_footer(); ?>
+<?php jo_footer(); ?>
