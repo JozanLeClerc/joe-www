@@ -71,7 +71,7 @@ jo_sidebar() {
 			<li><a href="<?php echo $prefix; ?>">My C/C++ style</a></li>
 			<li><a href="<?php echo $prefix; ?>links.php">Links</a></li>
 			<hr>
-			<li><a href="<?php echo $prefix; ?>https://git.jozanleclerc.xyz/" target="_blank">GitJoe</a></li>
+			<li><a href="https://git.jozanleclerc.xyz/" target="_blank">GitJoe</a></li>
 		</ul>
 	</div>
 <?php
