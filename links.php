@@ -34,6 +34,13 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 			</a>
 		</li>
 		<li>
+			<span class="fa fa-git"></span> -
+			My GitJoe page -
+			<a href="https://git.jozanleclerc.xyz/jozan" target="_blank">
+				git.jozanleclerc.xyz/jozan
+			</a>
+		</li>
+		<li>
 			<span class="fa fa-twitch"></span> -
 			My Twitch channel (streaming code exclusively) -
 			<a href="https://www.twitch.tv/jozanleclerc" target="_blank">
@@ -68,6 +75,13 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 				His GitHub page:
 				<a href="https://github.com/salaaad2" target="_blank">
 					github.com/salaaad2
+				</a>
+			</li>
+			<li>
+				<span class="fa fa-git"></span> -
+				His GitJoe page -
+				<a href="https://git.jozanleclerc.xyz/salad" target="_blank">
+					git.jozanleclerc.xyz/salad
 				</a>
 			</li>
 			<li>
