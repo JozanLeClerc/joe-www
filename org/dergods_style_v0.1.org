@@ -1,0 +1,103 @@
+#+TITLE: Dergods' Style and good practices for C/C++
+#+AUTHOR: Joe
+#+DATE: v0.1
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[margin=1.0in]{geometry}
+#+LATEX_HEADER: \usepackage[utf8]{inputenc}
+#+LATEX_HEADER: \usepackage[dvipsnames]{xcolor}
+#+LATEX_HEADER: \definecolor{mypink1}{rgb}{0.858, 0.188, 0.478}
+#+LATEX_HEADER: \let\OldTexttt\texttt
+#+LATEX_HEADER: \renewcommand{\texttt}[1]{%
+#+LATEX_HEADER:     \OldTexttt{%
+#+LATEX_HEADER:         \colorbox{gray}{%
+#+LATEX_HEADER:             \color{black} #1%
+#+LATEX_HEADER:         }%
+#+LATEX_HEADER:     }%
+#+LATEX_HEADER: }%
+
+* Introduction
+The following is a description of Dergods' Style code and project
+formatting to put in use if you work on Dergods' Realm-related code or if you
+just need a personnal good-looking norm to improve your code readablity. It
+is heavily inspired by BSD [[https://www.freebsd.org/cgi/man.cgi?query=style&apropos=0&sektion=0&manpath=FreeBSD+12.1-RELEASE+and+Ports&arch=default&format=html][style(9)]],
+with some changes.
+
+* Projects and version control
+** Directories
+   - Working on a *program*:
+      - All source and header files should be in the ~src/~ directory.
+      - Necessary media files such as images, sounds, fonts, etc... To the program execution should be in the ~media/~ directory.
+      - Compilation-generated object files should be located in the ~obj/~ directory.
+      - Sub-programs or utilities should be located in the ~tools/~ directory.
+      - An optional man page can be made for the program and should be located in the ~man/~ directory.
+   - Working on a *library*:
+      - All source files should be located in the ~src/~ directory.
+      - Compilation-generated object files should be located in the ~obj/~ directory.
+      - Non-optional man pages for every major function should be located in the ~man/~ directory.
+      - Header files should be located in the ~include/~ directory.
+
+** Files
+   - *C* sources and headers files should be of the ~.c~ and ~.h~ extensions.
+   - *C++* sources and header files should be of the corresponding ~.cxx~ / ~.hxx~ or ~.cc~ / ~.hh~ extensions unless the project is Microsoft™ Windows®-compatible only, then extensions should be ~.cpp~ / ~.hpp~. If the project is compatible with any UNIX®-like operating system, ~.cxx~ / ~.hxx~ or ~.cc~ / ~.hh~ should be the prefered extensions.
+   - Compilation-generated object files should be of the ~.c.o~, ~.cxx.o~, ~.cc.o~ or ~.cpp.o~ corresponding to the correct extensions.
+   - All files should follow the UNIX® case formatting, including only alphabetical letters (~a-z~), underscores (~_~) and dots (~.~). Numbers are not allowed.
+   - Compilation-generated object files should have the same pre-extension basename as its the corresponding source file.
+   - Working on a *program*, every source file should have its own header file. The pre-extension basenames names should be corresponding. Orphan header files are tolerated.
+   - Source files should be composed of two parts:
+      - An index letter followed by an underscore (~_~). An index letters list should be found in an info comment under the main function. The index letter should be consistent.
+      - A single explicit word describing the file's purpose.
+         - Example of what a source file should look like: ~g_inventory.cxx~. Its corresponding header file should be ~g_inventory.hxx~ and its compilation-generated object file should be ~g_inventory.cxx.o~. In our case, ~g_~ may be described under the main function as gameplay-related.
+   - Don't forget the LICENSE and README. Prefer org-mode or markdown for README. Never use a plain text README without extension. Therefore extensions should be ~.org~ or ~.md~.
+
+** Makefile
+   - The project should always contain at least one makefile.
+   - There can be more more than one makefile per projects but only one by subdirectories.
+   - The makefile should be in lowercases only with a capital "M": ~Makefile~.
+   - The main makefile should contain at least the 3 rules:
+      - ~all~
+      - ~clean~
+      - ~install~
+   - Makefiles should not relink upon successful compilation.
+   - The main makefile should contain rules to compile any sub makefiles with the ~tools~ rule.
+   - All compiled binaries and libraries should be in the root of the project repository, next to the main makefile.
+
+** Compilation
+   - The compiler of choice for released binaries should be ~clang~ for C and ~clang++~ for C++.
+   - The program should compile with ~gcc~ or ~g++~ as well, so test those often.
+   - C standard of choice should be ~C89~.
+   - C++ standard of choice should be ~C++98~.
+   - ~C99~ is tolerated sometimes but ~C89~ should always be this first choice.
+   - Standard compiler flags should be:
+      - ~-std=c89~ for C or ~-std=c99~ for C++.
+      - ~-Wall~
+      - ~-Wextra~
+      - ~-Werror~
+      - ~-pedantic~
+   - When including external libraries, additional ~-Wno-~\x X flags may be added to mute external warnings generated by them, for example if one library uses a more recent standard.
+      - Example: ~-Wno-long-long~ if your library uses ~long long~'s. You will then have to be careful not using ~long long~'s in your code.
+   - Released binaries should never be compiled with ~-g~\x X options.
+   - The program should run without any issue with the ~-fsanitize=address~ or ~-fsanitize=memory~ options engaged. Test those often.
+   - Dynamic linking is prefearable.
+
+** Editors
+No specific editor should be imposed over another, you should always pick the
+one you feel the more comfortable with. However some of them are malicious
+spyware that should never be recommanded.
+
+Here is a non-exhaustive list of recommanded or banished programs:
+
+   - *Recommanded*:
+      - vi® / vim® and variants
+      - GNU Emacs®
+      - ee®
+      - joe® and variants
+   - *banished*:
+      - Microsoft™ VSCode®
+      - Microsoft™ Atom®
+      - JetBrains™ IntelliJ® variants
+
+** Version control
+   - Prefer ~fossil~ over ~git~. Using ~fossil~'s builtin function to mirror repository to ~git~ is fine.
+   - The repository should only contain files necessary to the compilation, execution or documentation of the program.
+   - The repository root should not contain anything else than the project's main makefile, LICENSE, README and subdirectories.
