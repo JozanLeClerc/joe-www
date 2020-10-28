@@ -41,7 +41,7 @@ with some changes.
    - *C* sources and headers files should be of the ~.c~ and ~.h~ extensions.
    - *C++* sources and header files should be of the corresponding ~.cxx~ / ~.hxx~ or ~.cc~ / ~.hh~ extensions unless the project is Microsoft™ Windows®-compatible only, then extensions should be ~.cpp~ / ~.hpp~. If the project is compatible with any UNIX®-like operating system, ~.cxx~ / ~.hxx~ or ~.cc~ / ~.hh~ should be the prefered extensions.
    - Compilation-generated object files should be of the ~.c.o~, ~.cxx.o~, ~.cc.o~ or ~.cpp.o~ corresponding to the correct extensions.
-   - All files should follow the UNIX® case formatting, including only alphabetical letters (~a-z~), underscores (~_~) and dots (~.~). Numbers are not allowed.
+   - All files should follow the UNIX® case formatting, including only lowercase alphabetical letters (~a-z~), underscores (~_~) and dots (~.~). Numbers are not allowed.
    - Compilation-generated object files should have the same pre-extension basename as its the corresponding source file.
    - Working on a *program*, every source file should have its own header file. The pre-extension basenames names should be corresponding. Orphan header files are tolerated.
    - Source files should be composed of two parts:
