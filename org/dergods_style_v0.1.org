@@ -48,7 +48,8 @@ with some changes.
       - An index letter followed by an underscore (~_~). An index letters list should be found in an info comment under the main function. The index letter should be consistent.
       - A single explicit word describing the file's purpose.
          - Example of what a source file should look like: ~g_inventory.cxx~. Its corresponding header file should be ~g_inventory.hxx~ and its compilation-generated object file should be ~g_inventory.cxx.o~. In our case, ~g_~ may be described under the main function as gameplay-related.
-   - Don't forget the LICENSE and README. Prefer org-mode or markdown for README. Never use a plain text README without extension. Therefore extensions should be ~.org~ or ~.md~.
+   - ~.txt~ format is pointless and forbidden.
+   - Don't forget a LICENSE and a README. Prefer org-mode or markdown for README if the project is going to be published on platforms such as GitLab or GitHub. Therefore extensions should be ~.org~ or ~.md~. You can add a copy of the README without extension properly formated to be displayed in a terminal.
 
 ** Makefile
    - The project should always contain at least one makefile.
