@@ -31,7 +31,7 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 	<h2>About me</h2>
 	<p>
 		I am a student for
-		<a href="https://www.42lyon.fr/" target="_blank">42Lyon</a>
+		<a href="https://www.42lyon.fr/">42Lyon</a>
 		IT school based in Lyon, France.
 		I work on various personnal project beside that.
 	</p>

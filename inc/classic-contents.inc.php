@@ -71,7 +71,7 @@ jo_sidebar() {
 			<li><a href="<?php echo $prefix; ?>">My C/C++ style</a></li>
 			<li><a href="<?php echo $prefix; ?>links.php">Links</a></li>
 			<hr>
-			<li><a href="https://git.jozanleclerc.xyz/" target="_blank">GitJoe</a></li>
+			<li><a href="https://git.jozanleclerc.xyz/">GitJoe</a></li>
 		</ul>
 	</div>
 <?php
@@ -85,7 +85,7 @@ jo_footer() {
 		<p>
 			Copyright &copy; 2020, Joe -
 			see <a href="<?php echo $prefix; ?>license.php">LICENSE</a> -
-			we do not use cookies
+			this website does not use cookies
 		</p>
 	</footer>
 			</div>

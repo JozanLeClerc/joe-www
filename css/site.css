@@ -1,9 +1,9 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*   File     : classic-contents.inc.php                         /_________/  */
+/*   File     : site.css                                         /_________/  */
 /*   Authors  : Joe                                                    |      */
 /*   Date     : 06/2020                                                |      */
-/*   Info     : Functions for contents on every page                   |      */
+/*   Info     : Style                                                  |      */
 /*                                                             /       |      */
 /*                                                             \       /      */
 /*                                                              \_____/       */
@@ -95,25 +95,25 @@ a {
 }
 
 a:link {
-	color: #23b;
+	color: #9d0006;
 	background-color: transparent;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #23b;
+	color: #9d0006;
 	background-color: transparent;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #23b;
+	color: #9d0006;
 	background-color: transparent;
 	text-decoration: underline;
 }
 
 a:active {
-	color: #23b;
+	color: #9d0006;
 	background-color: transparent;
 	text-decoration: none;
 }
@@ -130,9 +130,9 @@ div.sidebar ul {
 
 div.sidebar {
 	float: right;
-	background-color: #e4e4f0;
-	border-left: 1pt solid #99c;
-	border-bottom: 1pt solid #99c;
+	background-color: #eee4e4;
+	border-left: 1pt solid #9d0006;
+	border-bottom: 1pt solid #9d0006;
 	margin-left: 2em;
 	margin-bottom: 1em;
 	min-width: 15%;
@@ -154,8 +154,8 @@ div.body-contents h1 {
 	padding: 0em 0em 0.25rem 0em;
 	margin: 0pt;
 	margin-top: 1em;
-	color: #24c;
-	border-bottom: 2px solid #24c;
+	color: #9d0006;
+	border-bottom: 2px solid #9d0006;
 }
 
 div.body-contents h2 {
@@ -165,8 +165,8 @@ div.body-contents h2 {
 	padding: 0em 0em 0.25rem 0em;
 	margin: 0pt;
 	margin-top: 1em;
-	color: #24c;
-	border-bottom: 1px solid #24c;
+	color: #9d0006;
+	border-bottom: 1px solid #9d0006;
 }
 
 div.body-contents h3 {
@@ -176,12 +176,12 @@ div.body-contents h3 {
 	padding: 0em 0em 0.25rem 0em;
 	margin: 0pt;
 	margin-top: 1em;
-	color: #24c;
+	color: #9d0006;
 }
 
 div.body-contents b {
 	font-weight: bold;
-	color: #24c;
+	color: #9d0006;
 }
 
 div.body-contents li {
@@ -197,8 +197,8 @@ div.body-contents ul {
 div.body-contents code {
 	font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
 	font-size: smaller;
-	background-color: #e4e4e4;
-	color: #24d;
+	background-color: #eee4e4;
+	color: #900006;
 	border-radius: 5px;
 	padding: 2px 5px 2px 5px;
 }
@@ -206,7 +206,8 @@ div.body-contents code {
 div.body-contents pre {
 	font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
 	font-size: smaller;
-	background-color: #d1e2f4;
+	color: #400006;
+	background-color: #eee4e4;
 	border-radius: 4px;
 	display: block;
 	margin: 0;
@@ -216,7 +217,7 @@ div.body-contents pre {
 	margin-right: 1em;
 	padding: 10px 10px 10px 10px;
 	white-space: pre;
-	border: 1px solid #aaa;
+	border: 1px solid #9d0006;
 }
 
 div.body-contents pre.src {
