@@ -27,30 +27,37 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 	</p>
 	<ul style="list-style: none;">
 		<li>
+			<span class="fa fa-globe"></span> -
+			My Chisel page - 
+			<a href="https://chiselapp.com/user/JozanLeClerc/">
+				chiselapp.com/user/JozanLeClerc
+			</a>
+		</li>
+		<li>
 			<span class="fa fa-github"></span> -
 			My GitHub page -
-			<a href="https://github.com/JozanLeClerc" target="_blank">
+			<a href="https://github.com/JozanLeClerc">
 				github.com/JozanLeClerc
 			</a>
 		</li>
 		<li>
 			<span class="fa fa-git"></span> -
 			My GitJoe page -
-			<a href="https://git.jozanleclerc.xyz/jozan" target="_blank">
+			<a href="https://git.jozanleclerc.xyz/jozan">
 				git.jozanleclerc.xyz/jozan
 			</a>
 		</li>
 		<li>
 			<span class="fa fa-twitch"></span> -
 			My Twitch channel (streaming code exclusively) -
-			<a href="https://www.twitch.tv/jozanleclerc" target="_blank">
+			<a href="https://www.twitch.tv/jozanleclerc">
 				twitch.tv/jozanleclerc
 			</a>
 		</li>
 		<li>
 			<span class="fa fa-bandcamp"></span> -
 			My Rockabilly band's Bandcamp -
-			<a href="https://towerofsilence.bandcamp.com/" target="_blank">
+			<a href="https://towerofsilence.bandcamp.com/">
 				towerofsilence.bandcamp.com
 			</a>
 		</li>
@@ -66,49 +73,49 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 			<li>
 				<span class="fa fa-globe"></span> -
 				<b>Salad</b>'s lab:
-				<a href="http://saladslab.karabo.ga/" target="_blank">
+				<a href="http://saladslab.karabo.ga/">
 					saladslab.karabo.ga
 				</a>
 			</li>
 			<li>
 				<span class="fa fa-github"></span> -
 				His GitHub page:
-				<a href="https://github.com/salaaad2" target="_blank">
+				<a href="https://github.com/salaaad2">
 					github.com/salaaad2
 				</a>
 			</li>
 			<li>
 				<span class="fa fa-git"></span> -
 				His GitJoe page -
-				<a href="https://git.jozanleclerc.xyz/salad" target="_blank">
+				<a href="https://git.jozanleclerc.xyz/salad">
 					git.jozanleclerc.xyz/salad
 				</a>
 			</li>
 			<li>
 				<span class="fa fa-twitter"></span> -
 				And his fun Twitter account:
-				<a href="https://twitter.com/fellowNwords" target="_blank">
+				<a href="https://twitter.com/fellowNwords">
 					twitter.com/fellowNwords
 				</a>
 			</li>
 			<li>
 				<span class="fa fa-globe"></span> -
 				<b>Akira</b>'s WebGL experiments:
-				<a href="https://inner-fab.com/" target="_blank">
+				<a href="https://inner-fab.com/">
 					inner-fab.com
 				</a>
 			</li>
 			<li>
 				<span class="fa fa-gitlab"></span> -
 				His GitLab page:
-				<a href="https://gitlab.com/AkiraMass" target="_blank">
+				<a href="https://gitlab.com/AkiraMass">
 					gitlab.com/AkiraMass
 				</a>
 			</li>
 			<li>
 				<span class="fa fa-globe"></span> -
 				And his daughter's art site:
-				<a href="https://dveloppez.com/" target="_blank">
+				<a href="https://dveloppez.com/">
 					dveloppez.com
 				</a>
 			</li>
