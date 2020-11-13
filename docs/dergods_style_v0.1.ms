@@ -11,7 +11,8 @@
 .gcolor
 ..
 .de xa
-.XA \n[xxx]
+.XA \\$1
+.B
 ..
 .color
 .DA v0.1
@@ -28,11 +29,9 @@ Joe
 .bsd
 .B
 1. Introduction
-.XA 1
-.B
+.xa 1
 2. Projects and version control
-.xa 92
-.B
+.xa 1
 	2.1 Directories
 .XE
 .PX
