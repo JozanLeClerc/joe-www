@@ -3,7 +3,7 @@
 .nr LL 6.5i
 .defcolor blue    rgb 0.1f 0.1f 1.0f
 .defcolor bsdred  rgb #9d2121
-.defcolor codered rgb #720000
+.defcolor codered rgb #900000
 .defcolor grey    rgb #aaaaaa
 .defcolor black   rgb #000000
 .color
@@ -22,11 +22,17 @@
 .B "\m[bsdred]\\$1\m[]" \\$2 \\$3
 ..
 .de nh
+.gcolor bsdred
 .NH \\$1
 .ps 14p
+\\$2
+.gcolor
 ..
-.gcolor black
 .
+.
+.
+.
+.gcolor black
 .bsdr
 .TL
 .LG
@@ -42,8 +48,6 @@ v0.1
 .DA
 
 
-
-
 .XS 1
 .ps 12p
 .b "1. Introduction"
@@ -53,12 +57,7 @@ v0.1
 .PX
 
 
-
-
-.bsdr
-.nh 1
-Introduction
-.endc
+.nh 1 "Introduction"
 .PP
 The following is a description of
 .b "Dergods' Style"
@@ -74,9 +73,5 @@ manpath=FreeBSD+12.1-RELEASE+and+Ports&arch=default&format=html \
 \f(CW\m[codered]style(9)\m[]\f[]
 .gcolor
 with some changes.
-.bsdr
-.nh 1
-Projects and version control
-.nh 2
-Directories
-.endc
+.nh 1 "Projects and version control"
+.nh 2 "Directories"
