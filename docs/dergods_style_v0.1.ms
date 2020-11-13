@@ -1,3 +1,6 @@
+.defcolor blue rgb 0.1f 0.1f 1.0f
+.defcolor red  rgb #990000
+.color
 .TL
 Dergods' Style and good practices for C/C++ projects
 .AU
@@ -20,5 +23,7 @@ qweqwe
 Now we can write some text
 .PP
 Pretty
-.B cool
+.CW "\m[red]cool and based\m[]" ,
+.gcolor blue
 huh
+.gcolor
