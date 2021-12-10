@@ -1,14 +1,22 @@
-<!-- ----------------------------------------------------------------------- -->
-<!--                                                                         -->
-<!-- File     : classic-contents.inc.php                         /_________/ -->
-<!-- Authors  : Joe                                                    |     -->
-<!-- Date     : 06/2020                                                |     -->
-<!-- Info     : Functions for contents on every page                   |     -->
-<!--                                                           /       |     -->
-<!--                                                           \       /     -->
-<!--                                                            \_____/      -->
-<!--                                                                         -->
-<!-- ----------------------------------------------------------------------- -->
+<!--
+ * ========================
+ * =====    ===============
+ * ======  ================
+ * ======  ================
+ * ======  ====   ====   ==
+ * ======  ===     ==  =  =
+ * ======  ===  =  ==     =
+ * =  ===  ===  =  ==  ====
+ * =  ===  ===  =  ==  =  =
+ * ==     =====   ====   ==
+ * ========================
+ *
+ * jozanofastora.xyz: inc/classic-contents.php
+ * Fri Dec 10 19:33:14 CET 2021
+ * Joe
+ *
+ * Functions for contents on every page
+-->
 
 <?php
 include "org.inc.php";
@@ -71,7 +79,7 @@ jo_sidebar() {
 			<li><a href="<?php echo $prefix; ?>">My C/C++ style</a></li>
 			<li><a href="<?php echo $prefix; ?>links.php">Links</a></li>
 			<hr>
-			<li><a href="https://git.jozanleclerc.xyz/">GitJoe</a></li>
+			<li><a href="https://git.jozanofastora.xyz/">GitJoe</a></li>
 		</ul>
 	</div>
 <?php
@@ -83,7 +91,7 @@ jo_footer() {
 ?>
 	<footer>
 		<p>
-			Copyright &copy; 2020, Joe -
+			Copyright &copy; 2020-2021, Joe -
 			see <a href="<?php echo $prefix; ?>license.php">LICENSE</a> -
 			this website does not use cookies
 		</p>

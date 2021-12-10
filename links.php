@@ -1,14 +1,22 @@
-<!-- ----------------------------------------------------------------------- -->
-<!--                                                                         -->
-<!-- File     : links.php                                        /_________/ -->
-<!-- Authors  : Joe                                                    |     -->
-<!-- Date     : 06/2020                                                |     -->
-<!-- Info     : The links page                                         |     -->
-<!--                                                           /       |     -->
-<!--                                                           \       /     -->
-<!--                                                            \_____/      -->
-<!--                                                                         -->
-<!-- ----------------------------------------------------------------------- -->
+<!--
+ * ========================
+ * =====    ===============
+ * ======  ================
+ * ======  ================
+ * ======  ====   ====   ==
+ * ======  ===     ==  =  =
+ * ======  ===  =  ==     =
+ * =  ===  ===  =  ==  ====
+ * =  ===  ===  =  ==  =  =
+ * ==     =====   ====   ==
+ * ========================
+ *
+ * jozanofastora.xyz: links.php
+ * Fri Dec 10 19:36:01 CET 2021
+ * Joe
+ *
+ * The links page
+-->
 
 <?php
 $prefix = "./";
@@ -43,8 +51,8 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 		<li>
 			<span class="fa fa-git"></span> -
 			My GitJoe page -
-			<a href="https://git.jozanleclerc.xyz/jozan">
-				git.jozanleclerc.xyz/jozan
+			<a href="https://git.jozanofastora.xyz/jozan">
+				git.jozanofastora.xyz/jozan
 			</a>
 		</li>
 		<li>
@@ -56,7 +64,7 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 		</li>
 		<li>
 			<span class="fa fa-bandcamp"></span> -
-			My Rockabilly band's Bandcamp -
+			My Smooth Jazz band's Bandcamp -
 			<a href="https://towerofsilence.bandcamp.com/">
 				towerofsilence.bandcamp.com
 			</a>
@@ -87,8 +95,8 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 			<li>
 				<span class="fa fa-git"></span> -
 				His GitJoe page -
-				<a href="https://git.jozanleclerc.xyz/salad">
-					git.jozanleclerc.xyz/salad
+				<a href="https://git.jozanofastora.xyz/salad">
+					git.jozanofastora.xyz/salad
 				</a>
 			</li>
 			<li>
