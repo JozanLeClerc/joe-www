@@ -38,10 +38,11 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 	</p>
 	<h2>About me</h2>
 	<p>
-		I am a student for
+		I once was a student for
 		<a href="https://www.42lyon.fr/">42Lyon</a>
-		IT school based in Lyon, France.
-		I work on various personnal project beside that.
+		IT school based in Lyon, France, but not anymore.
+		I work on various personnal project beside that. Also I like rocket
+		science and astrophysics.
 	</p>
 </div>
 <?php jo_footer(); ?>
