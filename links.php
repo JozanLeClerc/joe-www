@@ -71,7 +71,7 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 		</li>
 		<li>
 			<span class="fa fa-envelope"></span> -
-			My email - rbousset@42lyon.fr
+			My email - bousset.rudy@gmail.com
 		</li>
 	</ul>
 	<h2>My pals links</h2>
