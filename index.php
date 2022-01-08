@@ -44,5 +44,11 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 		I work on various personnal project beside that. Also I like rocket
 		science and astrophysics.
 	</p>
+	<br>
+	<img src="img/home_gifs/emacs2.gif" alt="emacs2.gif" />
+	<img src="img/home_gifs/power-button.gif" alt="power-button.gif" />
+	<br>
+	<img src="img/home_gifs/lynx.gif" alt="lynx.gif" />
+	<img src="img/home_gifs/mars_icon.gif" alt="mars_icon.gif" />
 </div>
 <?php jo_footer(); ?>

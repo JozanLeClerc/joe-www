@@ -74,7 +74,6 @@ jo_sidebar() {
 			<li><a href="<?php echo $prefix; ?>">Assembly</a></li>
 			<li><a href="<?php echo $prefix; ?>">UNIX</a></li>
 			<li><a href="<?php echo $prefix; ?>">GNU Emacs</a></li>
-			<li><a href="<?php echo $prefix; ?>">My school projects</a></li>
 			<li><a href="<?php echo $prefix; ?>projects/">My projects</a></li>
 			<li><a href="<?php echo $prefix; ?>">My C/C++ style</a></li>
 			<li><a href="<?php echo $prefix; ?>links.php">Links</a></li>

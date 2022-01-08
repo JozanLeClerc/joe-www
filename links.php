@@ -70,6 +70,13 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 			</a>
 		</li>
 		<li>
+			<span class="fa fa-rocket"></span> -
+			My Gemini capsule
+			<a href="gemini://jozanofastora.xyz/">
+				gemini://jozanofastora.xyz/
+			</a>
+		</li>
+		<li>
 			<span class="fa fa-envelope"></span> -
 			My email - bousset.rudy@gmail.com
 		</li>

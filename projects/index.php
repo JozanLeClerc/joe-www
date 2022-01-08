@@ -23,7 +23,8 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 <div class="body-contents">
 	<h1>My personnal projects</h1>
 	<p>
-		These are the personnal projects I have worked on or that are still being developped:
+		These are some of the personnal projects I have worked on or
+		that are still being developped:
 	</p>
 	<ul>
 		<li>
