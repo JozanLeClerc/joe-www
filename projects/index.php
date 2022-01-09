@@ -39,6 +39,10 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 			<a href="">arch-installer</a> -
 			very basic intallation script for Arch Linux
 		</li>
+		<li>
+			<a href="">Phobos Aurora</a> -
+			nothing much for now
+		</li>
 	</ul>
 </div>
 <?php jo_footer(); ?>
