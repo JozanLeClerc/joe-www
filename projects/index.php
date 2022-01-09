@@ -21,9 +21,9 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 <?php jo_head("Projects"); ?>
 <?php jo_sidebar(); ?>
 <div class="body-contents">
-	<h1>My personnal projects</h1>
+	<h1>My personal projects</h1>
 	<p>
-		These are some of the personnal projects I have worked on or
+		These are some of the personal projects I have worked on or
 		that are still being developped:
 	</p>
 	<ul>

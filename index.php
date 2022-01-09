@@ -31,7 +31,7 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 <div class="body-contents">
 	<h2>About this site</h2>
 	<p>
-		Welcome to my personnal blog. Here you can find my tips and articles
+		Welcome to my own blog. Here you can find my tips and articles
 		on various tech and programming subjects.
 		<br><br>
 		The site is still in active developpement, stay tuned.
@@ -41,7 +41,7 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 		I once was a student for
 		<a href="https://www.42lyon.fr/">42Lyon</a>
 		IT school based in Lyon, France, but not anymore.
-		I work on various personnal project beside that. Also I like rocket
+		I work on various personal project beside that. Also I like rocket
 		science and astrophysics.
 	</p>
 	<br>
