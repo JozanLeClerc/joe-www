@@ -37,7 +37,8 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 		</li>
 		<li>
 			<a href="">arch-installer</a> -
-			very basic intallation script for Arch Linux
+			very basic, FreeBSD-inspired TUI intallation script for Arch Linux,
+			I'm not too proud of this one, but it has been helpful
 		</li>
 		<li>
 			<a href="">Phobos Aurora</a> -
