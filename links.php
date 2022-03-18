@@ -87,9 +87,9 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 		<ul style="list-style: none;">
 			<li>
 				<span class="fa fa-globe"></span> -
-				<b>Salad</b>'s lab:
-				<a href="http://saladslab.karabo.ga/">
-					saladslab.karabo.ga
+				<b>Waterman</b>'s lab:
+				<a href="https://born2die.tk/">
+					born2die.tk
 				</a>
 			</li>
 			<li>

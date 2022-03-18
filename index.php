@@ -34,7 +34,7 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 		Welcome to my own blog. Here you can find my tips and articles
 		on various tech and programming subjects.
 		<br><br>
-		The site is still in active developpement, stay tuned.
+		This website is still in <i>not so</i> active developpement, stay tuned.
 	</p>
 	<h2>About me</h2>
 	<p>
