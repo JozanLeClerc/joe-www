@@ -28,6 +28,11 @@ if ($curr_dir != "jozan" && $curr_dir != "jozanleclerc.xyz") {
 	</p>
 	<ul>
 		<li>
+			<a href="">go2work</a> -
+			TUI or just CLI alarm clock made to learn Go,
+			right in your BSD or Linux terminal
+		</li>
+		<li>
 			<a href="<?php echo $prefix; ?>projects/lowbat.php">lowbat</a> -
 			a lightweight low battery notifier for Linux and BSD
 		</li>
