@@ -12,7 +12,7 @@
  * ========================
  *
  * jozanofastora.xyz: css/site.css
- * Wed Apr 20 00:14:30 CEST 2022
+ * Wed Apr 20 12:52:41 CEST 2022
  * Joe
  *
  * The style
@@ -161,7 +161,7 @@ div.body-contents h1 {
 	text-align: left;
 	padding: 0em 0em 0.25rem 0em;
 	margin: 0pt;
-	margin-top: 1em;
+	margin-top: 0.75em;
 	color: #9d0006;
 	border-bottom: 2px solid #9d0006;
 }
@@ -172,7 +172,7 @@ div.body-contents h2 {
 	text-align: left;
 	padding: 0em 0em 0.25rem 0em;
 	margin: 0pt;
-	margin-top: 2em;
+	margin-top: 1em;
 	color: #9d0006;
 	border-bottom: 1px solid #9d0006;
 }
@@ -183,7 +183,7 @@ div.body-contents h3 {
 	text-align: left;
 	padding: 0em 0em 0.25rem 0em;
 	margin: 0pt;
-	margin-top: 2em;
+	margin-top: 1em;
 	color: #9d0006;
 }
 
@@ -193,7 +193,7 @@ div.body-contents h4 {
 	text-align: left;
 	padding: 0em 0em 0.20rem 0em;
 	margin: 0pt;
-	margin-top: 2em;
+	margin-top: 1em;
 }
 
 div.body-contents b {
@@ -203,6 +203,7 @@ div.body-contents b {
 
 div.body-contents li {
 	display: list-item;
+	padding: 0.10rem 0pt 0.10rem 0pt;
 }
 
 div.body-contents ul {
@@ -241,6 +242,17 @@ div.body-contents pre {
 	padding: 10px 10px 10px 10px;
 	white-space: pre;
 	border: 1px solid #9d0006;
+}
+
+div.figure
+{
+	padding: 1em;
+}
+
+div.figure p
+{
+	font-size: 90%;
+	text-align: center;
 }
 
 div.body-contents pre.src {
