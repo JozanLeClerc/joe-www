@@ -1,2 +1,10 @@
-* jozanleclerc.xyz website sources
-*README in progress*
+#+TITLE: jozanleclerc.xyz website sources
+
+There's nothing much to say, it's just the html files for my website.
+
+Here is the link: [[https://jozanofastora.xyz][jozanofastora.xyz]]
+
+Check out my other websites:
+
+- GitJoe: [[https://gitjoe.xyz/][gitjoe.xyz]]
+- FossilJoe: [[https://fossil.jozanofastora.xyz/][fossil.jozanofastora.xyz]]

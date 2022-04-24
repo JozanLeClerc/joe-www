@@ -136,6 +136,10 @@ div.sidebar ul {
 	list-style: square;
 }
 
+div.sidebar hr {
+	border-top: none;
+}
+
 div.sidebar {
 	float: right;
 	background-color: #eee4e4;
@@ -172,7 +176,7 @@ div.body-contents h2 {
 	text-align: left;
 	padding: 0em 0em 0.25rem 0em;
 	margin: 0pt;
-	margin-top: 1em;
+	margin-top: 2em;
 	color: #9d0006;
 	border-bottom: 1px solid #9d0006;
 }
@@ -183,7 +187,7 @@ div.body-contents h3 {
 	text-align: left;
 	padding: 0em 0em 0.25rem 0em;
 	margin: 0pt;
-	margin-top: 1em;
+	margin-top: 2em;
 	color: #9d0006;
 }
 
@@ -194,6 +198,10 @@ div.body-contents h4 {
 	padding: 0em 0em 0.20rem 0em;
 	margin: 0pt;
 	margin-top: 1em;
+}
+
+div.body-contents p {
+	margin: 1em 1ex 1em 1ex !important;
 }
 
 div.body-contents b {
@@ -242,6 +250,12 @@ div.body-contents pre {
 	padding: 10px 10px 10px 10px;
 	white-space: pre;
 	border: 1px solid #9d0006;
+}
+
+div.body-contents hr {
+	border-top: none;
+	border-bottom: 1px solid #9d0006;
+	width: 80%;
 }
 
 div.figure
