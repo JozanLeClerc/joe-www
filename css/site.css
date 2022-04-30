@@ -215,7 +215,7 @@ div.body-contents li {
 }
 
 div.body-contents ul {
-	padding: 0pt 0pt 0pt 1.5rem;
+	padding: 0em 6ex 0em 6ex;
 	margin: 0;
 	list-style: square;
 }
